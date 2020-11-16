@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Basics Using Poke&#769;mon Ipsum</title>
+        <meta name="author" content="Gerard Francis">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            /*Define Flexbox */
+            .container {display: flex;  flex-direction: row; justify-content: center; flex-wrap: wrap;}
+            .main-flex-container {display: flex; flex-direction: column; order: 4; flex: 4; width: 90%; align-items: flex-start; justify-content: space-between; text-align: justify;}
+            .side-flex-container {display: flex; flex-direction: column; order: 3; flex: 1; width: 10%; align-items: flex-start; text-align: justify}
+            .head-flex-container {display: flex; align-self: flex-start; order:1; width: 100%; max-height: 12%; flex-direction: column;}
+            .head-flex-container nav {display: flex; align-self: flex-start; flex-direction: row; width: 100%; align-items: center; justify-content: center;}
+            .head-flex-container h1, h3 {display: flex; width: 100%; align-items: center; justify-content: center;}
+            .foot-flex-container {display: flex; align-self: flex-end; order: 5; max-height: 12%; width: 100%; align-items: center; justify-content: center;}
+            .jumbo-flex-container {display: flex; align-self: center; order: 2; width: 100%; height: 40%; flex-direction: column; align-items: center; text-align: center;}
+            #section4 {display: flex;}
+            #section4 div {display: flex; flex-direction: row;}
+            #section4-heading {display: flex; align-self: flex-start; max-height: 12%; width: 100%; align-items: center; justify-content: center;}
+            #section4-block {display: flex; flex-direction: row; width: 30rem}
+            
+        </style>
+    </head>
+    <body class="container">
+        <header id="head" class="head-flex-container">
+            <section id="head-container">
+                <h1>Lorem Ipsum</h1>
+                <h3>A page that contains less Lorem Ipsum and more Poke&#769;mon fun!</h3>
+            </section>
+            <nav id="nav">
+                <a href="index.htm" d="link-home">Home</a>
+                <a href="https://pokedex.org/" id="link-pokedex">Poke&#769;dex</a>
+                <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page" id="link-pokepedia">Poke&#769;pedia</a>
+                <a href="#about" id="link-about">About this Site</a>
+                <a href="#contact" id="link-contact">Contact Me</a>
+                <i id="ico-search" class="material-icons">search</i>
+                <input id="input-search" type="search" placeholder="Search..." class="">
+            </nav>
+        </header>
+        <aside id="latest-news" class="side-flex-container">
+            <div>
+                <h3>Latest News</h3>
+            </div>
+            <article id="article1">
+                <div id="article1-image">
+
+                </div>
+                <div id="article1-heading">
+                    <h4>Poke&#769;mon Ipsum</h4>
+                </div>
+                <div id="article1-content">
+                    <p>Cacturne giratina spiritomb girafarig jumpluff. Ledian heatmor igglybuff machop zapdos cacnea dewgong roggenrola finneon archen pachirisu ambipom bayleef. Golett entei poliwrath munchlax. Zweilous sandile smeargle snorlax pawniard dustox serperior. Venomoth mienfoo ledian shieldon growlithe?</p>
+                </div>
+            </article>
+            <article id="article2">
+                <div id="article2-image">
+
+                </div>
+                <div id="article2-heading">
+                    <h4>Poke&#769;mon Ipsum</h4>
+                </div>
+                <div id="article2-content">
+                    <p>Blastoise boldore umbreon skuntank keldeo. Kabuto azurill, gligar bibarel. Reuniclus woobat golbat vaporeon rhydon turtwig plusle seismitoad skorupi spoink onix kirlia lilligant. Rotom omanyte pikachu magcargo? Abomasnow mr exeggutor squirtle. Flygon quagsire hitmonlee slakoth tropius ludicolo, ferrothorn spinarak skiploom. Jumpluff wailmer feebas pidgeotto seedot, omanyte toxicroak munna?</p>
+                </div>
+            </article>
+            <article id="article3">
+                <div id="article3-image">
+
+                </div>
+                <div id="article3-heading">
+                    <h4>Poke&#769;mon Ipsum</h4>
+                </div>
+                <div id="article3-content">
+                    Terrakion raichu durant mantyke vibrava axew makuhita piplup. Gothorita gothorita octillery mawile eelektrik gigalith delibird. Noctowl piloswine manectric metang of pelipper woobat heracross manaphy! Chandelure toxicroak sceptile snover klinklang ursaring aron igglybuff skiploom hoppip.
+                </div>
+            </article>
+        </aside>
+        <section id="section1" class="jumbo-flex-container">
+            <div id="section1-jumbo">
+
+            </div>
+            <div id="section1-heading">
+                <h1>Poke&#769;mon Ipsum</h1>
+            </div>
+            <div id="section1-content">
+                <p>A demonstration site, using the Poke&#769;mon Ipsum as demo text.</p>
+                <a id="linkback" href="https://www.freeformatter.com/lorem-ipsum-generator.html#ad-output">Courtesy of FreeFormatter.com for these lovely Poke&#769;based paragraphs. See more Lorem Ipsums like this by clicking me!</a>
+            </div>
+        </section>
+        <div id="main-wrapper" class="main-flex-container">
+            <section id="section2">
+                <div id="section2-heading">
+                    <h1>Poke&#769;mon Ipsum</h1>
+                </div>
+                <div id="section2-content">
+                    <div id="section2-img-slide">
+                        <img>
+                        <img>
+                        <img>
+                        <img>
+                        <img>
+                        <img>
+                    </div>
+                </div>
+            </section>
+            <section id="section3">
+                <div id="section3-heading">
+                    <h1>Poke&#769;mon Ipsum</h1>
+                </div>
+                <div id="section3-content">
+                    <div id="secction3-table">
+                        <h3>Poke&#769;stats</h3>
+                        <table id="pokestats-table">
+                            <tr>
+                                <th>Poke&#769;mon</th>
+                                <th>Type</th>
+                                <th>Region</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="section3-list-ul">
+                        <h3>Poke&#769;mon Regions</h3>
+                        <ul id="list-pokeregions">
+                            <li>Kanto</li>
+                            <li>Johto</li>
+                            <li>Hoenn</li>
+                            <li>Sinnoh</li>
+                            <li>Unova</li>
+                            <li>Kalos</li>
+                            <li>Alola</li>
+                            <li>Galar</li>
+                        </ul>
+                    </div>
+                    <div id="section3-list-ol">
+                        <h3>My Favorite Poke&#769;mon</h3>
+                        <ol id="list-favpoke">
+                            <li>Empoleon</li>
+                            <li>Swampert</li>
+                            <li>Mudkip</li>
+                            <li>Blaziken</li>
+                            <li>Bayleef</li>
+                            <li>Tropius</li>
+                            <li>Latios</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <div id="section4-heading">
+                <h1>Poke&#769;mon Ipsum</h1>
+            </div>
+            <section id="section4">
+                <div id="section4-content">
+                    <div id="section4-block">
+                        <div id="section4-block-head">
+                            <h5>Poke&#769;mon Ipsum</h5>
+                        </div>
+                        <div id="section4-block-content">
+                            <p>Weavile palpitoad rotom seviper tyrogue. Gulpin ducklett miltank spheal snubbull minccino vigoroth cacnea palpitoad remoraid lairon haxorus? Yanma buneary cubone venonat garchomp. Pansage kingler aron chinchou stunfisk cacturne carvanha shellos spinda basculin torchic. Zorua, skiploom swadloon hitmonchan deino klang. Lotad woobat starly empoleon krookodile smeargle alakazam cleffa cranidos. Slugma gible forretress starly shinx cacturne cradily pidgeotto jellicent hydreigon mandibuzz hariyama. Donphan skorupi medicham empoleon giratina thundurus. Bidoof nosepass ferrothorn cascoon pichu wigglytuff groudon poliwrath slowpoke tynamo a. Gardevoir ledyba gligar muk jellicent kricketot rhydon drifloon? Nidorina lugia omastar zigzagoon bellsprout rayquaza buneary bouffalant weepinbell slugma koffing carnivine! Lairon snubbull flareon blissey politoed simisear chansey gible. Metagross.</p>
+                        </div>
+                    </div>
+                    <div id="section4-block">
+                        <div id="section4-block-head">
+                            <h5>Poke&#769;mon Ipsum</h5>
+                        </div>
+                        <div id="section4-block-content">
+                            <p>Milotic dodrio baltoy bidoof bisharp. Vulpix lotad sharpedo pelipper bulbasaur cresselia hoppip. Azumarill solrock audino mewtwo taillow rhyhorn skuntank serperior blaziken. Ralts bayleef combee roselia lillipup fearow herdier ninetales salamence lombre dratini grimer pineco? Togepi vespiquen misdreavus the treecko finneon donphan silcoon. Liepard timburr smoochum shaymin oshawott leavanny. Smoochum shinx anorith dugtrio togepi. Blastoise diglett cleffa fearow cryogonal nidorina and budew swadloon mudkip. Audino cresselia golett spinda reshiram giratina volbeat audino shellder reshiram leafeon bellossom!</p>
+                        </div>
+                    </div>
+                    <div id="section4-block">
+                        <div id="section4-block-head">
+                            <h5>Poke&#769;mon Ipsum</h5>
+                        </div>
+                        <div id="section4-block-content">
+                            <p>Vanilluxe, trubbish kadabra mewtwo. Hitmonlee of pelipper weavile azelf seviper. Regice psyduck vullaby flygon exploud piloswine registeel. Ho wingull zapdos lampent croconaw mime sandshrew horsea hariyama hitmonlee chandelure! Salamence entei gengar noctowl. Deino pidgeotto flygon rapidash liepard meowth heracross, venusaur probopass gabite.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id="foot" class="foot-flex-container">
+            <div id="sitemap">
+                <a href="index.htm" d="link-home">Home</a>
+                <a href="https://pokedex.org/" id="link-pokedex">Poke&#769;dex</a>
+                <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page" id="link-pokepedia">Poke&#769;pedia</a>
+                <a href="#about" id="link-about">About this Site</a>
+                <a href="#contact" id="link-contact">Contact Me</a>
+            </div>
+            <div id="copyinfo">
+                <p id="copytext">Copyright &copy; Gerard Francis 2020</p>
+                <p id="copypoke">Pokémon is a registered trademark of Nintendo · Creatures Inc. · GAME FREAK inc.</p>
+                <p id="copyother"> All  other  names  and  trademarks  mentioned  are  the  registered  trademarks  and  property  of  the respective companies.</p>
+                <a id="link-terms">Terms of Conditions</a>
+                <a id="link-copy">Copyright Notice</a>
+            </div>
+        </footer>
+    </body>
+</html>
